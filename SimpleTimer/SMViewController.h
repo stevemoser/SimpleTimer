@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface SMViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIDatePicker *timePicker;
+@property (weak, nonatomic) IBOutlet UILabel *timerLabel;
+- (IBAction)touchDown:(id)sender;
+- (IBAction)valueChanged:(id)sender;
 
 @end
